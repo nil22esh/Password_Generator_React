@@ -1,0 +1,40 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+.card-container{
+  background-color: aqua;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: 200px;
+}
+.heading{
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(54, 150, 223);
+}
+.input-box{
+  border: 1px solid rgba(83, 81, 81, 0.532);
+  border-radius: 4px;
+  font-size: 25px;
+}
+.btn{
+  font-size: 26px;
+  background-color: #2dca4a;
+  color: 343739;
+  border: 1px solid rgb(33, 90, 5);
+  border-radius: 8px;
+  margin-left: 8px;
+}
+.card-elements{
+  margin-top: 25px;
+  display: flex;
+  font-size: 18px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.element{
+  margin-left: 10px;
+}
